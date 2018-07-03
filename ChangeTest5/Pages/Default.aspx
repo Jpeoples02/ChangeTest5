@@ -27,11 +27,19 @@
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <div>
-        <p id="message">
-            <!-- The following content will be replaced with the user name when you run the app - see App.js -->
-            initializing...
-        </p>
-    </div>
+    <div class="NavBar">
+	
+	<a href="#"><h1>Change Form</h1></a>
 
+	<ul class = "menu">
+           <!-- <a href="Page4.aspx"><li>Machine Logs</li></a> -->
+        <a href="OnlyForm.aspx"><li>IT Only</li></a>
+        <a href="#"><li>Corporate</li></a>
+        <a href="Data.aspx"><li>Data</li></a>
+	</ul>
+
+
+</div>
+
+ 
 </asp:Content>
