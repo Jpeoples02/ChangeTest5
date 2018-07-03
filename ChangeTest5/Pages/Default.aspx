@@ -41,5 +41,13 @@
 
 </div>
 
+
+    <div class="container-fluid">
+  <div class="row">
+       <img src="../Images/freePhone.jpg" />
+      </div>
+        </div>
+
+
  
 </asp:Content>
